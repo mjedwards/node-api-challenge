@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Middleware and routing in express
+
 - [ ] Describe Middleware?
+
+function(s) that do tasks before passing along necessary data to the end user
 
 - [ ] Describe a Resource?
 
+data the passed along to an end user via an end point
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+200 status can be returned.
+
 - [ ] How can we partition our application into sub-applications?
+
+Use of routers can be used to create sub applications. This is possible because routers in express can have their own routing and middleware.
 
 ## Minimum Viable Product
 
